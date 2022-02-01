@@ -1,0 +1,82 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\#1 CodingArea\\#1 MyProjects\\WebAPI_Interview\\WebAPI_Interview\\WebAPI_Interview.csproj": {}
+  },
+  "projects": {
+    "D:\\#1 CodingArea\\#1 MyProjects\\WebAPI_Interview\\WebAPI_Interview\\WebAPI_Interview.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\#1 CodingArea\\#1 MyProjects\\WebAPI_Interview\\WebAPI_Interview\\WebAPI_Interview.csproj",
+        "projectName": "WebAPI_Interview",
+        "projectPath": "D:\\#1 CodingArea\\#1 MyProjects\\WebAPI_Interview\\WebAPI_Interview\\WebAPI_Interview.csproj",
+        "packagesPath": "C:\\Users\\Pattharapol Lakboon\\.nuget\\packages\\",
+        "outputPath": "D:\\#1 CodingArea\\#1 MyProjects\\WebAPI_Interview\\WebAPI_Interview\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Pattharapol Lakboon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.28, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.1.22, 3.1.22]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
